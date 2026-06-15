@@ -1,0 +1,89 @@
+[2026-06-15 09:41:47] production.ERROR: The G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\bootstrap\\cache directory must be present and writable. at G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate/Foundation/PackageManifest->write(Array)
+#1 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate/Foundation/PackageManifest->build()
+#2 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate/Foundation/PackageManifest->getManifest()
+#3 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate/Foundation/PackageManifest->config('aliases')
+#4 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate/Foundation/PackageManifest->aliases()
+#5 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/RegisterFacades->bootstrap(Object(Illuminate/Foundation/Application))
+#6 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate/Foundation/Application->bootstrapWith(Array)
+#7 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#8 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/artisan(20): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput))
+#9 {main}
+"} 
+[2026-06-15 09:41:48] production.ERROR: Symfony\Component\Console\Application::renderThrowable(): Argument #2 ($output) must be of type Symfony\Component\Console\Output\OutputInterface, null given, called in G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php on line 1027 {"exception":"[object] (TypeError(code: 0): Symfony\\Component\\Console\\Application::renderThrowable(): Argument #2 ($output) must be of type Symfony\\Component\\Console\\Output\\OutputInterface, null given, called in G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php on line 1027 at G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/symfony/console/Application.php:890)
+[stacktrace]
+#0 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony/Component/Console/Application->renderThrowable(Object(Exception), NULL)
+#1 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(633): Illuminate/Foundation/Exceptions/Handler->renderForConsole(NULL, Object(Exception))
+#2 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(202): Illuminate/Foundation/Console/Kernel->renderException(NULL, Object(Exception))
+#3 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/artisan(20): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput))
+#4 {main}
+"} 
+[2026-06-15 09:43:19] production.ERROR: The G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\bootstrap\\cache directory must be present and writable. at G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate/Foundation/PackageManifest->write(Array)
+#1 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate/Foundation/PackageManifest->build()
+#2 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate/Foundation/PackageManifest->getManifest()
+#3 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate/Foundation/PackageManifest->config('aliases')
+#4 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate/Foundation/PackageManifest->aliases()
+#5 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/RegisterFacades->bootstrap(Object(Illuminate/Foundation/Application))
+#6 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate/Foundation/Application->bootstrapWith(Array)
+#7 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#8 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/artisan(20): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput))
+#9 {main}
+"} 
+[2026-06-15 09:43:19] production.ERROR: Symfony\Component\Console\Application::renderThrowable(): Argument #2 ($output) must be of type Symfony\Component\Console\Output\OutputInterface, null given, called in G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php on line 1027 {"exception":"[object] (TypeError(code: 0): Symfony\\Component\\Console\\Application::renderThrowable(): Argument #2 ($output) must be of type Symfony\\Component\\Console\\Output\\OutputInterface, null given, called in G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php on line 1027 at G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/symfony/console/Application.php:890)
+[stacktrace]
+#0 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony/Component/Console/Application->renderThrowable(Object(Exception), NULL)
+#1 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(633): Illuminate/Foundation/Exceptions/Handler->renderForConsole(NULL, Object(Exception))
+#2 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(202): Illuminate/Foundation/Console/Kernel->renderException(NULL, Object(Exception))
+#3 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/artisan(20): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput))
+#4 {main}
+"} 
+[2026-06-15 09:43:54] production.ERROR: The G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\bootstrap\\cache directory must be present and writable. at G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate/Foundation/PackageManifest->write(Array)
+#1 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate/Foundation/PackageManifest->build()
+#2 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate/Foundation/PackageManifest->getManifest()
+#3 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate/Foundation/PackageManifest->config('aliases')
+#4 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate/Foundation/PackageManifest->aliases()
+#5 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/RegisterFacades->bootstrap(Object(Illuminate/Foundation/Application))
+#6 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate/Foundation/Application->bootstrapWith(Array)
+#7 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#8 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/artisan(20): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput))
+#9 {main}
+"} 
+[2026-06-15 09:43:54] production.ERROR: Symfony\Component\Console\Application::renderThrowable(): Argument #2 ($output) must be of type Symfony\Component\Console\Output\OutputInterface, null given, called in G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php on line 1027 {"exception":"[object] (TypeError(code: 0): Symfony\\Component\\Console\\Application::renderThrowable(): Argument #2 ($output) must be of type Symfony\\Component\\Console\\Output\\OutputInterface, null given, called in G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php on line 1027 at G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/symfony/console/Application.php:890)
+[stacktrace]
+#0 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(1027): Symfony/Component/Console/Application->renderThrowable(Object(Exception), NULL)
+#1 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(633): Illuminate/Foundation/Exceptions/Handler->renderForConsole(NULL, Object(Exception))
+#2 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(202): Illuminate/Foundation/Console/Kernel->renderException(NULL, Object(Exception))
+#3 G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/artisan(20): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput))
+#4 {main}
+"} 
+[2026-06-15 09:45:47] production.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:67
+Stack trace:
+#0 G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\vendor\laravel\framework\src\Illuminate\Container\Container.php(952): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\vendor\laravel\framework\src\Illuminate\Container\Container.php(832): Illuminate\Container\Container->build(Object(Closure))
+#3 G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\vendor\laravel\framework\src\Illuminate\Container\Container.php(763): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 G:\My Drive\PNC-2026 By Sophea\Term 4\laravel-products-api\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(124): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:67
+Stack trace:
+#0 G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(952): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(832): Illuminate\\Container\\Container->build(Object(Closure))
+#3 G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(763): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 G:\\My Drive\\PNC-2026 By Sophea\\Term 4\\laravel-products-api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(124): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at G:/My Drive/PNC-2026 By Sophea/Term 4/laravel-products-api/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:67)
+[stacktrace]
+#0 {main}
+"} 
